@@ -1,90 +1,99 @@
-                                #WE WANT TO CREATE SNAKE,WATER,GUN GAME.
-                        #IN THIS GAME SNAKE BEATS WATER,GUN BEATS SNAKE,WATER BEATS GUN. 
+                                    # Snake, Water, Gun Game
+                    # In this game, snake beats water, gun beats snake, and water beats gun.
 
 def game():
-    a=["w","s","g"] 
-    import random as rn  #USING RANDOM TO RANDOMLY CHOOSE ONE OUT OF 3.
-    x=rn.choice(a)
+    a = ["w", "s", "g"]  # Options: Water, Snake, Gun
+    import random as rn  # Using random to randomly choose one out of 3.
+    x = rn.choice(a)  # Computer's choice
     print(f"Computer's turn: {x}")
-    print('Choose one:-\nw = Water\ng = Gun\ns = Snake') #HERE WE TELL SHOW OPTIONS.
-    opt = ("w","g","s")
+    print('Choose one:\n'
+          'w = Water\n'
+          'g = Gun\n'
+          's = Snake')  # Option shortcuts
+    opt = ("w", "g", "s")  # Valid options
+
     while True:
-        d=input('Your turn:- ').lower()
+        d = input('Your turn: ').lower()  # User input
         if d in opt:
-            d=d
+            d = d
             break
         else:
-            print('Please type correct input.')
+            print('Please type a correct input.')
 
+    # Checking for input...
     if d == x:
         print('Draw')
     elif x == "s":
         if d == "w":
-            print('You loss.')
+            print('You lose.')
         elif d == "g":
-            print('You Win.')
+            print('You win.')
         else:
             print('Wrong input.')
-    elif x =="g":
+    elif x == "g":
         if d == "w":
-            print('You Win.')
+            print('You win.')
         elif d == "s":
-            print('You Loss.')
+            print('You lose.')
         else:
             print('Wrong input.')
     elif x == 'w':
         if d == "g":
-            print('You Loss.')
+            print('You lose.')
         elif d == "s":
-            print('You Win.')
+            print('You win.')
         else:
             print('Wrong input.')
+
+    # ASKING TO PLAY...
     while True:
         try:
-            x=int(input('Type 1 for continue or 0 to exit: '))
-            if x==0:
-                print('Ok exited.')
+            x = int(input('Type 1 to continue or 0 to exit: '))
+            if x == 0:
+                print('Ok, exiting.')
                 break
-            elif x==1:
-                a=["w","s","g"]
-                x=rn.choice(a)
+            elif x == 1:
+                a = ["w", "s", "g"] # Options: Water, Snake, Gun
+                x = rn.choice(a) # Computer's choice
                 print(f"Computer's turn: {x}")
-                print('Choose one:-\nw = Water\ng = Gun\ns = Snake')
+                print('Choose one:\n'
+                      'w = Water\n'
+                      'g = Gun\n'
+                      's = Snake') # Option shortcuts
                 while True:
-                    d=input('Your turn:- ').lower()
+                    d = input('Your turn: ').lower()
                     if d in opt:
-                        d=d
+                        d = d
                         break
                     else:
-                        print('Please type correct input.')
+                        print('Please type a correct input.')
                 if d == x:
                     print('Draw')
                 elif x == "s":
                     if d == "w":
-                        print('You loss.')
+                        print('You lose.')
                     elif d == "g":
-                        print('You Win.')
+                        print('You win.')
                     else:
                         print('Wrong input.')
-                elif x =="g":
+                elif x == "g":
                     if d == "w":
-                        print('You Win.')
+                        print('You win.')
                     elif d == "s":
-                        print('You Loss.')
+                        print('You lose.')
                     else:
                         print('Wrong input.')
                 elif x == 'w':
                     if d == "g":
-                        print('You Loss.')
+                        print('You lose.')
                     elif d == "s":
-                        print('You Win.')
+                        print('You win.')
                     else:
                         print('Wrong input.')
             else:
                 print('Wrong input.')
         except:
-            print("please type integer 0/1: ")
+            print("Please type an integer (0/1):")
 
-    
-        
+
 game()
