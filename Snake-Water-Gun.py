@@ -1,5 +1,5 @@
                                 #WE WANT TO CREATE SNAKE,WATER,GUN GAME.
-                        #IN THIS GAME SNAKE BEATS WATER,GUN BEATS SNAKE,WATER BEATS GUN.
+                        #IN THIS GAME SNAKE BEATS WATER,GUN BEATS SNAKE,WATER BEATS GUN. 123
 
 def game():
     a=["w","s","g"] 
