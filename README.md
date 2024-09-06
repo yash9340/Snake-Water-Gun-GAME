@@ -31,6 +31,7 @@ If the computer’s choice beats the player’s choice, the player loses.
 ## `Continue or Exit`: 
 After each round, the player is asked if they want to play again. They can type '1' to continue or '0' to exit. If an invalid input is provided, the game prompts the player to enter a correct option.
 
-Error Handling: The game includes basic error handling to ensure that only integers (0 or 1) are accepted for the continuation prompt.
+## `Error Handling`: 
+The game includes basic error handling to ensure that only integers (0 or 1) are accepted for the continuation prompt.
 
-The game loop continues until the player chooses to exit by typing '0'. This Python code is structured with a main function that initiates the game and can be easily run by checking if the script is being executed as the main program.
+`The game loop continues until the player chooses to exit by typing '0'. This Python code is structured with a main function that initiates the game and can be easily run by checking if the script is being executed as the main program.`
