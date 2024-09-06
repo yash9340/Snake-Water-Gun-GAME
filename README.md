@@ -8,7 +8,7 @@ The snake consumes the water, so if the player chooses snake and the computer ch
 ### `Water beats Gun`:
 The water extinguishes the gun, so if the player chooses water and the computer chooses gun, the player wins.
 
-### `Gun beats Snake`:
+### ``Gun beats Snake``:
 The gun shoots the snake, so if the player chooses gun and the computer chooses snake, the player wins.
 
 Here’s how the game works:
