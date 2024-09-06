@@ -19,7 +19,8 @@ The game begins with the computer randomly selecting one of the three options: W
 ### `Player Input`: 
 The player is prompted to choose one of the three options by typing 'w', 'g', or 's'. The game ensures that only valid inputs are accepted.
 
-Determine the Winner: The game compares the player’s choice with the computer’s choice and declares the result:
+###  `Determinethe Winner`: 
+The game compares the player’s choice with the computer’s choice and declares the result:
 
 If both choices are the same, the result is a draw.
 If the player’s choice beats the computer’s choice based on the rules, the player wins.
