@@ -2,7 +2,7 @@
 
 Snake, Water, Gun is a humorous version of the famous "Rock, Paper, Scissors" game. This game in Python involves two players, the user and the computer-both playing a simple yet entertaining decision-making game. The rules for this are as follows:
 
-## `Snake beats Water`: 
+### `Snake beats Water`: 
 The snake drinks the water. In this case, when the user selects snake and the computer opts for water, the user is the winner.
 
 ### `Water beats Gun`:
@@ -11,7 +11,7 @@ The water quenches the gun; hence, for the case where a player selects water and
 ### `Gun beats Snake`:
 A gun shoots the snake. Where a player selects a gun and the computer selects a snake, the player wins.
 
-How the Game Works:
+## How the Game Works:
 
 Game Start:
 The computer initiates the game by making one of three moves. Let the three possible moves be denoted as Water ('w'), Snake ('s'), or Gun ('g').
