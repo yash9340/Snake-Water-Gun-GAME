@@ -16,7 +16,8 @@ Here’s how the game works:
 ## Game Start: 
 The game begins with the computer randomly selecting one of the three options: Water (represented by 'w'), Snake (represented by 's'), or Gun (represented by 'g').
 
-Player Input: The player is prompted to choose one of the three options by typing 'w', 'g', or 's'. The game ensures that only valid inputs are accepted.
+### `Player Input`: 
+The player is prompted to choose one of the three options by typing 'w', 'g', or 's'. The game ensures that only valid inputs are accepted.
 
 Determine the Winner: The game compares the player’s choice with the computer’s choice and declares the result:
 
