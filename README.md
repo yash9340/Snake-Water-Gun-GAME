@@ -28,9 +28,9 @@ If the player's choice beats the computer's current choice based on the rules, h
 If the computer's choice beats the player's choice, he loses.
 
 ## Continue or Exit:
-In every round, the game asks the player if he wants to play the game again or not. He should type '1' to continue or '0' to exit. In case the player inputs anything invalid, the game asks him to input a valid option.
+In every round, the game asks the player if he wants to play the game again or not. He should type `1` to continue or `0` to exit. In case the player inputs anything invalid, the game asks him to input a valid option.
 
 ### `Error Handling`:
 The game includes very basic error handling to ensure only integers 0 or 1 are accepted for the continuation prompt.
 
-# `The game loops until such time as the player elects to quit by entering '0'. This Python code has a main function that starts the game and is thus executable with a check that this script is the main one being run.`
+### `The game loops until such time as the player elects to quit by entering '0'. This Python code has a main function that starts the game and is thus executable with a check that this script is the main one being run.`
