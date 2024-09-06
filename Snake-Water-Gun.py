@@ -95,5 +95,6 @@ def game():
         except:
             print("Please type an integer (0/1):")
 
-
-game()
+# Add the standard if __name__ == "__main__": block
+if __name__ == "__main__":
+    game()
