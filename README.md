@@ -1,33 +1,21 @@
-# Snake-Water-Gun-GAME
-Snake, Water, Gun Game
+The Snake, Water, Gun game is a playful twist on the classic "Rock, Paper, Scissors" game. In this Python-coded game, players compete against the computer in a simple but engaging decision-making challenge. The rules are straightforward:
 
-Welcome to the Snake, Water, Gun game! This Python-based game is a fun twist on the classic Rock, Paper, Scissors game, where players can choose between three options: Water, Snake, or Gun. The game's rules are straightforward:
+Snake beats Water: The snake consumes the water, so if the player chooses snake and the computer chooses water, the player wins.
+Water beats Gun: The water extinguishes the gun, so if the player chooses water and the computer chooses gun, the player wins.
+Gun beats Snake: The gun shoots the snake, so if the player chooses gun and the computer chooses snake, the player wins.
+Here’s how the game works:
 
-Snake beats Water.
-Gun beats Snake.
-Water beats Gun.
-How to Play:
- Game Start:
+Game Start: The game begins with the computer randomly selecting one of the three options: Water (represented by 'w'), Snake (represented by 's'), or Gun (represented by 'g').
 
-The game randomly selects one of the three options for the computer.
-You will be prompted to choose your option by entering one of the following:
-w for Water
-s for Snake
-g for Gun
-Decide the Outcome:
+Player Input: The player is prompted to choose one of the three options by typing 'w', 'g', or 's'. The game ensures that only valid inputs are accepted.
 
-Based on the choice you and the computer made, the game will determine the outcome:
-If you and the computer chose the same option, it's a draw.
-If the computer wins, you lose.
-If you win, the computer loses.
-Play Again:
+Determine the Winner: The game compares the player’s choice with the computer’s choice and declares the result:
 
-After each round, you have the option to play again or exit the game.
-Type 1 to continue and play another round.
-Type 0 to exit the game.
-Input Validation:
+If both choices are the same, the result is a draw.
+If the player’s choice beats the computer’s choice based on the rules, the player wins.
+If the computer’s choice beats the player’s choice, the player loses.
+Continue or Exit: After each round, the player is asked if they want to play again. They can type '1' to continue or '0' to exit. If an invalid input is provided, the game prompts the player to enter a correct option.
 
-The game checks for valid input and will prompt you to enter a correct option if your input is invalid.
-It also ensures that you type 0 or 1 correctly when deciding to continue or exit.
+Error Handling: The game includes basic error handling to ensure that only integers (0 or 1) are accepted for the continuation prompt.
 
-Enjoy the game and may the best choice win!
+The game loop continues until the player chooses to exit by typing '0'. This Python code is structured with a main function that initiates the game and can be easily run by checking if the script is being executed as the main program.
