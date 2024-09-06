@@ -1,3 +1,5 @@
+# SNAKE-WATER-GUN-GAME
+
 The Snake, Water, Gun game is a playful twist on the classic "Rock, Paper, Scissors" game. In this Python-coded game, players compete against the computer in a simple but engaging decision-making challenge. The rules are straightforward:
 
 Snake beats Water: The snake consumes the water, so if the player chooses snake and the computer chooses water, the player wins.
