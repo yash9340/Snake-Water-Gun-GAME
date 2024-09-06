@@ -33,4 +33,4 @@ In every round, the game asks the player if he wants to play the game again or n
 ### `Error Handling`:
 The game includes very basic error handling to ensure only integers 0 or 1 are accepted for the continuation prompt.
 
-`The game loops until such time as the player elects to quit by entering '0'. This Python code has a main function that starts the game and is thus executable with a check that this script is the main one being run.`
+# `The game loops until such time as the player elects to quit by entering '0'. This Python code has a main function that starts the game and is thus executable with a check that this script is the main one being run.`
