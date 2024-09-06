@@ -5,10 +5,10 @@ Snake, Water, Gun is a humorous version of the famous "Rock, Paper, Scissors" ga
 ### `Snake beats Water`: 
 The snake drinks the water. In this case, when the user selects snake and the computer opts for water, the user is the winner.
 
-Water beats Gun:
+### `Water beats Gun`:
 The water quenches the gun; hence, for the case where a player selects water and the computer selects gun, the player wins.
 
-Gun beats Snake:
+### `Gun beats Snake`:
 A gun shoots the snake. Where a player selects a gun and the computer selects a snake, the player wins.
 
 How the Game Works:
